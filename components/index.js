@@ -4,10 +4,12 @@ import FeaturedWorkCard from './FeaturedWorkCard';
 import Footer from './Footer';
 import Hero from './Hero';
 import RecentPostCard from './RecentPostCard';
+import Layout from './Layout';
 
 export {
     Navbar,
     Hero, 
+    Layout,
     RecentPostCard,
     BlogCard, 
     FeaturedWorkCard,
