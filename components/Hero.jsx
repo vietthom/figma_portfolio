@@ -2,7 +2,7 @@ import Avatar from '../public/avatar.png'
 import Image from 'next/image'
 const Hero = () => {
 return (
-    <div className="container mx-auto w-[856px] h-screen mt-[228px]">
+    <div className="container mx-auto w-[856px] h-full mt-[228px]">
         <div className='flex'>
             <div>
                 <h1 className="mb-[40px] text-5xl font-bold">Hi, I am John,<br/>Creative Technologist</h1>
@@ -10,7 +10,7 @@ return (
                 <button className="bg-primary text-white px-[20px] py-[10px]">Download Resume</button>
             </div>
             <div className='ml-[115px]'>
-                <Image src={Avatar} alt="profile picture" className=''/>
+                <Image src={Avatar} alt="profile picture"/>
             </div>
         </div>
     </div>
