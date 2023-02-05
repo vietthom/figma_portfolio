@@ -3,7 +3,6 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOulineClose } from 'react-icons/ai';
 
 const Navbar = () => (
-    <div>
         <div className="container mx-auto flex justify-end items-center py-8">
             <ul className="flex gap-[33px] text-[20px] font-medium">
                 <li>
@@ -20,7 +19,6 @@ const Navbar = () => (
                 </li>
             </ul>
         </div>
-    </div>
 );
 
 export default Navbar
