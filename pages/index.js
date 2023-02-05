@@ -1,5 +1,5 @@
-import { Hero, RecentPostCard, Layout } from '../components'
-import { postData } from '../constants'
+import { Hero, RecentPostCard, Layout, FeaturedWorkCard } from '../components'
+import { postData, featuredWorkData } from '../constants'
 import Link from 'next/link'
 
 
@@ -22,9 +22,16 @@ export default function Home() {
           </ul>
         </Layout>
       </div>
-      <div>
-
-      </div>
+      <Layout>
+        <h1 className="text-[22px] pt-6">Featured Works</h1>
+        <ul className='divide-y divide-gray-200'>
+          {featuredWorkData.map((work) => (
+            <li key={work} className="py-1">
+              <FeaturedWorkCard {...work}/>
+            </li>
+          ))}
+        </ul>
+      </Layout>
     </div>
   )
 }
