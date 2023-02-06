@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <Layout>
         <h1 className="text-[22px] pt-6">Featured Works</h1>
-        <ul className='divide-y divide-gray-200'>
+        <ul className='divide-y divide-gray-200 pb-[30px]'>
           {featuredWorkData.map((work) => (
             <li key={work} className="py-1">
               <FeaturedWorkCard {...work}/>

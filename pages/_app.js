@@ -1,4 +1,4 @@
-import { Navbar } from '../components';
+import { Navbar, Footer } from '../components';
 import { Heebo } from '@next/font/google';
 
 const heebo = Heebo({
@@ -13,6 +13,7 @@ const MyApp = ({ Component, pageProps }) => (
   <div className={heebo.className}>
     <Navbar />
     <Component {...pageProps} />
+    <Footer />
   </div>
 );
 
