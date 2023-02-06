@@ -7,7 +7,7 @@ const BlogCard = (props) => {
       <div className='flex space-x-4 text-lg mb-3'>
         <p>{props.date}</p>
         <p>|</p>
-        <p>{props.tag}</p>
+        <p className="text-[#8695A4]">{props.tag}</p>
       </div>
       <p>{props.summary}</p>
     </div>
