@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Hero from './Hero';
 import RecentPostCard from './RecentPostCard';
 import Layout from './Layout';
-import Pill from './pill';
+import Pill from './Pill';
 
 
 export {
