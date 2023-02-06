@@ -37,3 +37,29 @@ export const featuredWorkData = [
     },
 ];
 
+export const blogPosts = [
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        tage: ['Express, ', 'Handlebars'], 
+        summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        tage: ['Express, ', 'Handlebars'], 
+        summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },    
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        tage: ['Express, ', 'Handlebars'], 
+        summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },    
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        tage: ['Express, ', 'Handlebars'], 
+        summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
+]
